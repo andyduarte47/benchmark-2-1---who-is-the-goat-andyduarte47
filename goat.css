@@ -1,0 +1,15 @@
+
+body {
+    font-family: system-ui;
+    color: white;
+    text-align: center;
+    background-image: url(ring.jpg);
+    background-size: 4000px;
+  }
+  img {
+    max-width: 50%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+  }
+  
