@@ -1,15 +1,48 @@
 
 body {
-    font-family: system-ui;
-    color: white;
-    text-align: center;
-    background-image: url(ring.jpg);
-    background-size: 4000px;
-  }
+  font-family: system-ui;
+  color: white;
+  text-align: center;
+  background-image: url(https://photojournal.jpl.nasa.gov/jpegMod/PIA20920_modest.jpg);
+}
+
+/* media query for small screens */
+@media only screen and (max-width: 600px) {
   img {
-    max-width: 50%;
-    display: block;
-    height: auto;
-    margin: 0 auto;
-  }
-  
+  max-width: 50%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+main{
+  width: 100%;
+  max-width: 450px;
+  height: 90vh;
+  margin: 5vh auto;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+}
+/* media query for large screens */
+@media only screen and (min-width: 700px) {
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+img {
+  float: right;
+  width:  400px;
+  height: 400px;
+  object-fit: cover;
+}
+.column{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+}
+}
